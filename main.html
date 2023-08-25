@@ -11,6 +11,68 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form method = "post">
+		<div>
+			<label for="name">
+				<input type="text" id="name" placeholder="Name" required>
+			</label>
+		</div>
+		
+		<div>
+			<label for="email">
+				<input type="email" id="email" placeholder="Email" required>
+			</label>
+		</div>
+		
+		<div>
+			Gender:
+			<label for="gender_m">
+                <input type="radio" name="gender" id="gender_m"> Male
+            </label>
+            
+            <label for="gender_f">
+                <input type="radio" name="gender" id="gender_f"> Female
+            </label>
+		</div>
+
+		<div>
+            <label for="cars"> Car Brands </label>
+            <select name="myList" id="cars">
+                <option value="Swift" selected> --Please choose an option-- </option>
+                <option value="Swift-Desire"> Rolls-Royce </option>
+                <option value="Innova"> Mercedes-Benz </option>
+                <option value="Ertica"> BMW </option>
+            </select>
+		</div>
+
+		<div>
+			<label for="age">
+				<input type="number" id="age" placeholder="Age" required>
+			</label>
+		</div>
+
+		<div>
+			<label for="dob">
+				Date of Birth:
+				<input type="date" id="dob" required> 
+			</label>
+		</div>
+
+		<div>
+			<label for="tel">
+				<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+			</label>
+		</div>
+
+		<div>
+			<label for="tos">
+				<input type="checkbox" id="tos" required>I agree to the TOS
+			</label>
+		</div>
+		
+		<button type="submit">Submit</button>
+	</form>
+
 </body>
 
 </html>
